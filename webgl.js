@@ -53,6 +53,7 @@ const sketch = ({ context }) => {
       random.range(-1, 1), 
       random.range(-1, 1)
     );
+    
     mesh.scale.multiplyScalar(0.6);
     scene.add(mesh);
   }
